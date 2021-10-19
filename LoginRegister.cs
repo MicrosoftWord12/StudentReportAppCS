@@ -8,11 +8,13 @@ using System.Windows.Forms;
 
 namespace StudentReportApp
 {
-    public partial class Login : Form
+    public partial class LoginRegister : Form
     {
-        public Login()
+        public LoginRegister()
         {
             InitializeComponent();
         }
+
+
     }
 }

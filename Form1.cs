@@ -19,12 +19,16 @@ namespace StudentReportApp
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-
+            Form form = new LoginRegister();
+            this.Hide();
+            form.Show();
         }
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-
+            Form form = new RegisterForm();
+            this.Hide();
+            form.Show();
         }
     }
 }
